@@ -40,7 +40,7 @@ footer {
 
 /*-------------*/
 
-/* Website logo's styles */
+/* Content styles */
 
 .logo-link {
 	padding: 10px 10px;
@@ -60,9 +60,11 @@ footer {
 	text-decoration: none;
 }
 
-/*---------------------*/
-
-/* "Rights" block and text's styles */ 
+.content h2 {
+	color: white;
+	font-family: 'Suez One', sans-serif;
+	text-align: center;
+}
 
 .rights {
 	padding: 15px 10px;
@@ -74,4 +76,4 @@ footer {
     font-size: 25px;
 }
 
-/*---------------------------------*/
+/*-----------------*/
