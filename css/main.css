@@ -100,4 +100,31 @@ footer {
 	text-align: center;
 }
 
+#about {
+	text-align: center;
+	margin-top: 25px;
+}
+
+#about a {
+	border: 1px solid #c3c3c3;
+	padding: 8px;
+	color: white;
+}
+
+#about h3 {
+	color: white;
+	font-family: 'Suez One', sans-serif;
+	font-size: 40px;
+}
+
+#about p {
+	color: white;
+}
+
+#about a:hover {
+	background: #6dbcf3;
+	text-decoration: none;
+	transition: all 0.4s ease;
+}
+
 /*----------------*/
