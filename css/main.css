@@ -10,7 +10,7 @@
 html, body {
 	width: 100%;
 	height: 1080px;
-	background-image: url('../images/xmFj7k.png');
+	background: black;
 }
 
 a {
@@ -71,23 +71,11 @@ footer {
 	float: right;
 }
 
-#social-links span {
-	margin-right: 5px;
-	font-size: 25px;
-	font-family: 'Roboto Slab', sans-serif;
-}
-
 #social-links a {
 	padding-right: 10px;
 	margin: 5px;
 	font-size: 25px;
 	color: black;
-}
-
-.text {
-    color: black;
-    font-family: 'Roboto Slab', sans-serif;
-    font-size: 25px;
 }
 
 /*----------------*/
@@ -100,9 +88,10 @@ footer {
 	text-align: center;
 }
 
-#about {
+#about { 
 	text-align: center;
 	margin-top: 25px;
+    padding: 0 15%;
 }
 
 #about a {
