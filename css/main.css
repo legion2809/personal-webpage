@@ -43,6 +43,7 @@ header {
 
 .navbar-brand:hover {
 	border-bottom: 0.5px solid #781adb;
+	color: white;
 }
 
 .nav-link {
@@ -51,6 +52,7 @@ header {
 
 .nav-link:hover {
     border-bottom: 0.5px solid #5981F1;
+    color: white;
 }
 
 /*--------------*/
@@ -65,17 +67,12 @@ footer {
 
 .rights {
 	padding: 15px 10px;
+	font-size: 20px;
 }
 
-#social-links {
+#slogan {
 	float: right;
-}
-
-#social-links a {
-	padding-right: 10px;
-	margin: 5px;
-	font-size: 25px;
-	color: black;
+	font-size: 20px;
 }
 
 /*----------------*/
@@ -94,26 +91,69 @@ footer {
     padding: 0 15%;
 }
 
-#about a {
-	border: 1px solid #c3c3c3;
-	padding: 8px;
-	color: white;
-}
-
 #about h3 {
 	color: white;
 	font-family: 'Suez One', sans-serif;
 	font-size: 40px;
+	margin-bottom: 15px;
 }
 
 #about p {
 	color: white;
+	font-size: 25px;
+	font-family: 'Lato', sans-serif;
 }
 
-#about a:hover {
+.techno .tech {
+	color: white;
+	list-style-type: square;
+}
+
+.tech li {
+	width: 200px;
+	margin-left: 43%;
+}
+
+#contacts {
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 15px;
+	padding: 0 10%;
+}
+
+#contacts span {
+	color: white;
+	font-size: 25px;
+	font-family: 'Lato', sans-serif;
+}
+
+#contacts .gettop {
+	border: 1px solid #c3c3c3;
+	padding: 8px;
+	color: white;
+	transition: all 0.5s ease;
+}
+
+#contacts .gettop:hover {
 	background: #6dbcf3;
 	text-decoration: none;
 	transition: all 0.4s ease;
+}
+
+#links {
+	margin-bottom: 25px;
+}
+
+#links a {
+	margin: 15px;
+	color: white;
+	text-decoration: none;
+	font-size: 50px;
+}
+
+#links a:hover {
+	color: #909090;
+	transition: all 0.5s ease;
 }
 
 /*----------------*/
