@@ -9,7 +9,7 @@
 
 html, body {
 	width: 100%;
-	height: 1080px;
+	height: 100%;
 	background: black;
 }
 
@@ -80,12 +80,6 @@ footer {
 
 /* Content styles */
 
-.content h2 {
-	color: white;
-	font-family: 'Suez One', sans-serif;
-	text-align: center;
-}
-
 #about { 
 	text-align: center;
 	margin-top: 25px;
@@ -111,7 +105,7 @@ footer {
 }
 
 .tech li {
-	width: 200px;
+	width: 100px;
 	margin-left: 43%;
 }
 
@@ -158,3 +152,43 @@ footer {
 }
 
 /*----------------*/
+
+/* Media queries */
+
+@media (min-width: 320px) and (max-width: 600px) {
+    #about h3 {
+    	font-size: 35px;
+    }
+
+    #about p {
+    	font-size: 20px;
+    }
+
+    .tech {
+    	margin-right: 45%;
+    }
+
+    .tech li {
+    	width: 200px;
+    }
+
+	#links a {
+		font-size: 35px;
+	}
+
+	#contacts span {
+		font-size: 20px;
+	}
+
+	.gettop {
+		font-size: 15px;
+	}
+}
+
+@media (min-width: 1000px) {
+	.tech li {
+		width: 200px;
+	}
+}
+
+
