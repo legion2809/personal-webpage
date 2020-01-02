@@ -144,13 +144,13 @@ footer {
 #links a {
 	margin: 15px;
 	color: white;
+	transition: all 0.5s ease;
 	text-decoration: none;
 	font-size: 50px;
 }
 
 #links a:hover {
 	color: #909090;
-	transition: all 0.5s ease;
 }
 
 /*----------------*/
@@ -184,6 +184,10 @@ footer {
 
 	.gettop {
 		font-size: 15px;
+	}
+
+	#slogan {
+		float: left;
 	}
 }
 
