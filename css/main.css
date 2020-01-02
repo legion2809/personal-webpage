@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto+Slab|Suez+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab|Suez+One|Raleway&display=swap');
 
 /* Basic styles */
 
@@ -11,6 +11,7 @@ html, body {
 	width: 100%;
 	height: 100%;
 	background: black;
+	background-image: url('../images/ws_christmas_decorations_new_year_1920x1080.jpg');
 }
 
 a {
@@ -49,11 +50,6 @@ header {
 
 .nav-link {
 	font-size: 1.2em;
-}
-
-.nav-link:hover {
-    border-bottom: 0.5px solid #5981F1;
-    color: white;
 }
 
 /*--------------*/
@@ -114,6 +110,12 @@ footer {
 	margin-top: 30px;
 	margin-bottom: 15px;
 	padding: 0 10%;
+}
+
+#contacts h1 {
+	color: white;
+	font-family: 'Raleway', sans-serif;
+	margin-bottom: 20px;
 }
 
 #contacts span {
