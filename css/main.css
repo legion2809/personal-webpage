@@ -84,10 +84,13 @@ footer {
 
 #about h3 {
 	color: white;
+	background: linear-gradient(30deg, #fa709a, #fee140);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
 	font-family: 'Suez One', sans-serif;
 	font-size: 40px;
 	margin-bottom: 15px;
-}
+}	
 
 #about p {
 	color: white;
@@ -112,9 +115,13 @@ footer {
 	padding: 0 10%;
 }
 
-#contacts h1 {
+#contacts h1 .hny {
 	color: white;
+	background: linear-gradient(30deg, #fa709a, #fee140);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
 	font-family: 'Raleway', sans-serif;
+	font-size: 42px;
 	margin-bottom: 20px;
 }
 
