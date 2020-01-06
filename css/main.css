@@ -42,6 +42,7 @@ header {
 }
 
 .navbar-brand img {
+	border: 1px solid #ccc;
 	border-radius: 50%;
 	margin-bottom: 4px;
 	margin-right: 10px;
