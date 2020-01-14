@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto+Slab|Suez+One|Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab|Suez+One|Raleway|Montserrat|Inconsolata&display=swap');
 
 /* Basic styles */
 
@@ -10,7 +10,7 @@
 html, body {
 	width: 100%;
 	height: 100%;
-	background: black;
+	background: #000;
 }
 
 a {
@@ -33,16 +33,10 @@ a {
 
 header {
 	width: 100%;
-	background: #fff;
-}
-
-.navbar-brand {
-	font-family: 'Suez One', sans-serif;
-	font-size: 2em;
+	background: #1a1b1c;
 }
 
 .navbar-brand img {
-	border: 1px solid #ccc;
 	border-radius: 50%;
 	margin-bottom: 4px;
 	margin-right: 10px;
@@ -50,6 +44,11 @@ header {
 
 .nav-link {
 	font-size: 1.2em;
+	margin: 10px;
+}
+
+.navbar-toggler {
+	background: #fff;
 }
 
 /*--------------*/
@@ -59,27 +58,60 @@ header {
 footer {
 	width: 100%;
 	flex: 0 0 auto;
-	background: #fff;
+	background: #1a1b1c;
 }
 
 .rights {
 	padding: 15px 10px;
-	font-size: 20px;
+	font-size: 25px;
+	color: white;
+}
+
+.text {
+	float: left;
 }
 
 #slogan {
 	float: right;
-	font-size: 20px;
+	font-size: 25px;
+	color: white;
 }
 
 /*----------------*/
 
 /* Content styles */
 
+#main {
+	width: 100%;
+	text-align: center;
+	background: url('../images/about_bg.jpg');
+	padding: 5% 5%;
+}
+
+#main img {
+	margin-top: 5%;
+	border-radius: 50%;
+}
+
+#main p {
+	color: white;
+	margin: 0;
+	padding: 2% 2%;
+	font-size: 40px;
+	font-family: 'Inconsolata', monospace;
+}
+
+#main a {
+	font-size: 20px;
+	background: linear-gradient(30deg, #fa709a, #fee140);
+	border-radius: 40%;
+	padding: 10px;
+}
+
 #about { 
 	text-align: center;
-	margin-top: 25px;
-    padding: 0 15%;
+    padding: 10% 15%;
+    background-image: url('../images/242932.jpg');
 }
 
 #about h3 {
@@ -88,13 +120,13 @@ footer {
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 	font-family: 'Suez One', sans-serif;
-	font-size: 40px;
+	font-size: 50px;
 	margin-bottom: 15px;
 }	
 
 #about p {
 	color: white;
-	font-size: 25px;
+	font-size: 30px;
 	font-family: 'Lato', sans-serif;
 }
 
@@ -104,21 +136,20 @@ footer {
 }
 
 .tech li {
-	width: 100px;
+	width: auto;
 	margin-left: 43%;
 }
 
 #contacts {
 	text-align: center;
-	margin-top: 30px;
-	margin-bottom: 15px;
-	padding: 0 10%;
+	padding: 10% 10%;
+	background: url('../images/contactus.jpg');
 }
 
 #contacts span {
 	color: white;
-	font-size: 25px;
-	font-family: 'Lato', sans-serif;
+	font-size: 35px;
+	font-family: 'Montserrat', sans-serif;
 }
 
 #contacts .gettop {
@@ -143,7 +174,7 @@ footer {
 	color: white;
 	transition: all 0.5s ease;
 	text-decoration: none;
-	font-size: 50px;
+	font-size: 55px;
 }
 
 #links a:hover {
@@ -155,6 +186,10 @@ footer {
 /* Media queries */
 
 @media (min-width: 320px) and (max-width: 600px) {
+    #main p {
+    	font-size: 35px;
+    }
+
     #about h3 {
     	font-size: 35px;
     }
@@ -182,7 +217,9 @@ footer {
 	.gettop {
 		font-size: 15px;
 	}
+}
 
+@media (min-width: 320px) and (max-width: 710px) {
 	#slogan {
 		float: left;
 	}
