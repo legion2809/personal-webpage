@@ -4,6 +4,7 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>My Personal Webpage</title>
+	<link rel="shortcut icon" href="images/images.png" type="image/x-icon">
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/all.min.css">
 	<link rel="stylesheet" href="css/fontawesome.min.css">
@@ -97,13 +98,7 @@
     	<script src="js/bootstrap.min.js"></script>
     	<script type="text/javascript">
     		$(document).ready(function() {
-                $("#responsive").on("click", "a", function(event) {
-                    event.preventDefault();
-                    var id = $(this).attr('href'), top = $(id).offset().top;
-                    $('body, html').animate({scrollTop: top}, 1000);
-                });
-
-                $("#main").on("click", "a", function(event) {
+                $("#responsive, #main").on("click", "a", function(event) {
                     event.preventDefault();
                     var id = $(this).attr('href'), top = $(id).offset().top;
                     $('body, html').animate({scrollTop: top}, 1000);
