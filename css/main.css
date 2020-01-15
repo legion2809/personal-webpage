@@ -104,7 +104,9 @@ footer {
 #main a {
 	font-size: 20px;
 	background: linear-gradient(30deg, #fa709a, #fee140);
-	border-radius: 40%;
+	border-radius: 50%;
+	width: 50px;
+	height: 50px;
 	padding: 10px;
 }
 
