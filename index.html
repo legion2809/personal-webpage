@@ -81,7 +81,7 @@
     					<i class="fab fa-telegram"></i>
     				</a>
     			</div>
-    			<a href="#top" class="gettop">Get to the top</a>
+    			<a href="#top" class="gettop">Back to the top</a>
     		</div>
     	</div>
 
@@ -96,15 +96,6 @@
 
         <script src="js/jquery.min.js"></script>
     	<script src="js/bootstrap.min.js"></script>
-    	<script type="text/javascript">
-    		$(document).ready(function() {
-                $("#responsive, #main").on("click", "a", function(event) {
-                    event.preventDefault();
-                    var id = $(this).attr('href'), top = $(id).offset().top;
-                    $('body, html').animate({scrollTop: top}, 1000);
-                });
-    		});
-    	</script>
     </div>
 </body>
 </html>
