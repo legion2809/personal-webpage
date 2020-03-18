@@ -18,6 +18,15 @@ a {
 	text-decoration: none;
 }
 
+i {
+	transition: all 0.5s ease;
+}
+
+i:hover {
+	transform: rotate(360deg);
+	color: #909090;
+}
+
 .wrapper {
 	display: flex;
 	flex-direction: column;
@@ -114,7 +123,7 @@ footer {
 #about { 
 	text-align: center;
     padding: 10% 15%;
-    background-image: url('../images/242932.jpg');
+    background-image: url('../images/3.jpg');
 }
 
 #about h3 {
@@ -141,6 +150,34 @@ footer {
 .tech li {
 	width: auto;
 	margin-left: 43%;
+}
+
+#editors {
+	padding: 15%;
+	color: white;
+	font-family: 'Lato';
+	letter-spacing: 1px;
+	background-image: url('../images/4.jpg');
+}
+
+#editors h3 {
+	font-size: 40px;
+}
+
+#icons {
+	padding-left: 25%;
+}
+
+#icons img {
+	margin: 30px;
+	width: 95px;
+	height: 95px;
+	transition: all 0.5s ease;
+}
+
+#icons img:hover {
+	transition: all 0.5s ease;
+	transform: scale(1.5, 1.5);
 }
 
 #contacts {
@@ -173,15 +210,11 @@ footer {
 }
 
 #links a {
-	margin: 15px;
+	margin: 25px;
 	color: white;
 	transition: all 0.5s ease;
 	text-decoration: none;
 	font-size: 55px;
-}
-
-#links a:hover {
-	color: #909090;
 }
 
 /*----------------*/
