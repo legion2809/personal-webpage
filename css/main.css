@@ -171,14 +171,18 @@ footer {
 	padding-left: 25%;
 }
 
-#icons img {
+#icons a {
+	text-decoration: none;
+}
+
+#icons>a>img {
 	margin: 30px;
 	width: 95px;
 	height: 95px;
 	transition: all 0.5s ease;
 }
 
-#icons img:hover {
+#icons>a>img:hover {
 	transition: all 0.5s ease;
 	transform: scale(1.5, 1.5);
 }
