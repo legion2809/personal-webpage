@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto+Slab|Suez+One|Raleway|Montserrat|Inconsolata&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab|Suez+One|Raleway|Montserrat|Inconsolata|Ubuntu&display=swap');
+@import url('http://fonts.cdnfonts.com/css/aurora-condensed');
 
 /* Basic styles */
 
@@ -74,11 +75,14 @@ footer {
 
 .text {
 	float: left;
+	font-family: 'Aurora Condensed', sans-serif;
+	font-size: 30px;
 }
 
 #slogan {
 	float: right;
-	font-size: 25px;
+	font-size: 30px;
+	font-family: 'Aurora Condensed', sans-serif;
 	color: white;
 }
 
@@ -103,13 +107,13 @@ footer {
 	margin: 0;
 	padding: 2% 2%;
 	font-size: 40px;
-	font-family: 'Inconsolata', monospace;
+	font-family: 'Aurora Condensed', sans-serif;
 }
 
 #main a {
-	font-size: 20px;
-	background: linear-gradient(30deg, #fa709a, #fee140);
-	border-radius: 50%;
+	font-size: 25px;
+	background: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+	border-radius: 20%;
 	width: 50px;
 	height: 50px;
 	padding: 10px;
@@ -134,8 +138,8 @@ footer {
 	background: linear-gradient(30deg, #fa709a, #fee140);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
-	font-family: 'Suez One', sans-serif;
-	font-size: 50px;
+	font-family: 'Aurora Condensed', sans-serif;
+	font-size: 60px;
 	margin-bottom: 15px;
 }	
 
@@ -152,11 +156,13 @@ footer {
 
 .tech li {
 	width: auto;
+	font-size: 18px;
+	font-family: 'Ubuntu', sans-serif;
 	margin-left: 43%;
 }
 
 #editors {
-	padding: 15%;
+	padding: 14%;
 	color: white;
 	font-family: 'Lato';
 	letter-spacing: 1px;
@@ -265,6 +271,7 @@ footer {
 
 	.gettop {
 		font-size: 15px;
+		font-family: 'Ubuntu', sans-serif;
 	}
 }
 
