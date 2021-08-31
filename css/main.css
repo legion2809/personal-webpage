@@ -16,7 +16,9 @@ html, body {
 }
 
 a {
+	display: inline-block;
 	text-decoration: none;
+	line-height: 1.5;
 }
 
 i {
@@ -55,6 +57,19 @@ header {
 
 .navbar-toggler {
 	background: #fff;
+}
+
+.nav-link:after {
+	display: block;
+	width: 0;
+	height: 2px;
+	background-color: #00a650;
+	content: "";
+	transition: width 0.3s ease-out;
+}
+
+.nav-link:hover:after {
+	width: 100%;
 }
 
 /*--------------*/
@@ -114,9 +129,9 @@ footer {
 	font-size: 25px;
 	background: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
 	border-radius: 20%;
-	width: 50px;
+	width: 40px;
 	height: 50px;
-	padding: 10px;
+	padding: 5px;
 }
 
 #main i {
@@ -130,7 +145,8 @@ footer {
 #about { 
 	text-align: center;
     padding: 10% 15%;
-    background-image: url('../images/80541.jpg');
+    background-image: url('../images/black-background.jpg');
+	background-size: cover;
 }
 
 #about h3 {
@@ -156,7 +172,7 @@ footer {
 
 .tech li {
 	width: auto;
-	font-size: 18px;
+	font-size: 22px;
 	font-family: 'Ubuntu', sans-serif;
 	margin-left: 43%;
 }
