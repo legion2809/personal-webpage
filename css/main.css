@@ -155,7 +155,7 @@ footer {
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 	font-family: 'Aurora Condensed', sans-serif;
-	font-size: 60px;
+	font-size: 65px;
 	margin-bottom: 15px;
 }	
 
@@ -275,6 +275,7 @@ footer {
 
     .tech li {
     	width: 200px;
+		font-size: 20px;
     }
 
 	#links a {
