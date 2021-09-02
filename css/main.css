@@ -16,9 +16,7 @@ html, body {
 }
 
 a {
-	display: inline-block;
 	text-decoration: none;
-	line-height: 1.5;
 }
 
 i {
@@ -41,7 +39,6 @@ i {
 
 header {
 	width: 100%;
-	background: #1a1b1c;
 }
 
 .navbar-brand img {
@@ -59,17 +56,9 @@ header {
 	background: #fff;
 }
 
-.nav-link:after {
-	display: block;
-	width: 0;
-	height: 2px;
+.nav-link:hover {
 	background-color: #00a650;
-	content: "";
-	transition: width 0.3s ease-out;
-}
-
-.nav-link:hover:after {
-	width: 100%;
+	transition: all 0.5s ease-out;
 }
 
 /*--------------*/
@@ -128,10 +117,10 @@ footer {
 #main a {
 	font-size: 25px;
 	background: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
-	border-radius: 20%;
-	width: 40px;
-	height: 50px;
-	padding: 5px;
+	border-radius: 25%;
+	width: 50px;
+	height: 40px;
+	padding: 8px;
 }
 
 #main i {
