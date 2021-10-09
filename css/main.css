@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto+Slab|Suez+One|Raleway|Montserrat|Inconsolata|Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Ubuntu&display=swap');
 @import url('https://fonts.cdnfonts.com/css/aurora-condensed');
 
 /* Basic styles */
@@ -140,18 +140,17 @@ footer {
 
 #about h3 {
 	color: white;
-	background: linear-gradient(30deg, #fa709a, #fee140);
+	background-clip: text;
 	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
 	font-family: 'Aurora Condensed', sans-serif;
-	font-size: 65px;
+	font-size: 70px;
 	margin-bottom: 15px;
 }	
 
 #about p {
 	color: white;
 	font-size: 30px;
-	font-family: 'Lato', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 }
 
 .techno .tech {
@@ -251,11 +250,11 @@ footer {
     }
 
     #about h3 {
-    	font-size: 35px;
+    	font-size: 45px;
     }
 
     #about p {
-    	font-size: 20px;
+    	font-size: 23px;
     }
 
     .tech {
@@ -284,6 +283,19 @@ footer {
 @media (min-width: 320px) and (max-width: 710px) {
 	#slogan {
 		float: left;
+	}
+}
+
+@media (min-width: 529px) and (max-width: 600px) {
+	.tech li {
+		margin-left: 45%;
+	}
+}
+
+@media (min-width: 601px) and (max-width: 1000px) {
+	.tech li {
+        margin-left: 35%;
+		width: 200px;
 	}
 }
 
