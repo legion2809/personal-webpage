@@ -1,4 +1,4 @@
-import ReactHtmlParser from 'react-html-parser'
+import ReactHtmlParser from 'html-react-parser'
 
 export default function AboutMeText(props) {
     const htmlText = ReactHtmlParser("<br />")

@@ -2,7 +2,7 @@ import i_ids from './Intro.module.css'
 import AboutMe_ids from '../AboutMe/AboutMe.module.css'
 import avatar from '../../../assets/img/SPQR.png'
 import down_arrow from '../../../assets/img/chevron-arrowdown.svg'
-import ReactHtmlParser from 'react-html-parser'
+import ReactHtmlParser from 'html-react-parser'
 
 export default function Intro() {
     const intro_text = "<u>back-end</u>, <u>front-end</u>, <u>DB and servers administration</u>, <u>software development</u>"

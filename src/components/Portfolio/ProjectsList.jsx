@@ -1,5 +1,5 @@
 import pclasses from './Portfolio.module.css'
-import ReactHtmlParser from 'react-html-parser'
+import ReactHtmlParser from 'html-react-parser'
 
 export default function ProjectsList(props) {
     return (
