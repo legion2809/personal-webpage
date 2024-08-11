@@ -1,3 +1,6 @@
+import rmorf_icon from '../assets/img/rmorf_icon.png'
+import effects_icon from '../assets/img/effects_icon.png'
+
 export const aboutme_text = [
     {
         id: 0,
@@ -58,7 +61,7 @@ export const list_of_skills = [
 
 export const projects_list = [
     {
-        img_src: "../../../assets/img/rmorf_icon.png",
+        img_src: rmorf_icon,
         name: "Rmorf.bin Editor",
         desc: "Rmorf.bin Editor is a program which purposed to animate morph objects in \"Mafia: The City of Lost Heaven\".",
         link: "https://github.com/legion2809/RmorfBinEditorWPF",
@@ -68,7 +71,7 @@ export const projects_list = [
         used: "C#, .NET Framework 4.6, WPF"
     },
     {
-        img_src: "../../../assets/img/effects_icon.png",
+        img_src: effects_icon,
         name: "Effects.bin Editor",
         desc: "A program which purposed to add or remove particle effects from a particular mission in \"Mafia: The City of Lost Heaven\".",
         link: "https://github.com/legion2809/EffectsBinEditorWPF",
