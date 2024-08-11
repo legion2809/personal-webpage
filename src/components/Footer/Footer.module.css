@@ -1,0 +1,37 @@
+footer {
+    height: 3.2rem;
+    position: sticky;
+    bottom: 0;
+    flex: 0 0 auto;
+    width: 100%;
+    background: #1a1b1c;
+}
+
+.rights {
+    padding: 5px 5px;
+}
+
+.slogan {
+    float: right;
+}
+
+.rights_text {
+    float: left;
+}
+
+.rights_text,
+.slogan_text {
+    font-family: AuroraBC, sans-serif;
+    font-weight: 600;
+    font-size: 1.75em;
+}
+
+.rights_text>a {
+    text-decoration: none;
+}
+
+@media screen and (max-width: 722px) {
+    .slogan {
+        float: left;
+    }
+}

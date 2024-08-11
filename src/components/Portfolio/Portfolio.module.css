@@ -1,0 +1,70 @@
+#portfolio {
+    margin: auto;
+    padding: auto;
+}
+
+#portfolio article {
+    display: flex;
+    flex-direction: row;
+    align-items: normal;
+    text-align: justify;
+    font-size: 1.1rem;
+    padding: 1rem 0;
+}
+
+.project_img {
+    border-radius: 50%;
+}
+
+.project_img,
+.project_desc {
+    padding: 1.5rem;
+    line-height: 2;
+}
+
+.project_desc h3 {
+    font-family: 'Fira Code', sans-serif;
+    font-weight: 600;
+    font-size: 1.9rem;
+    letter-spacing: 0.02rem;
+    color: #2bbc8a;
+}
+
+.project_desc a {
+    font-family: 'Oxygen Mono', sans-serif;
+    color: wheat;
+    text-decoration: none;
+}
+
+.project_desc a:hover {
+    text-decoration: underline;
+}
+
+.project_desc p {
+    font-family: 'Oxygen Mono', sans-serif;
+    color: lightblue;
+}
+
+.project_desc ul {
+    margin-left: 1.2rem;
+}
+
+.project_desc ul a {
+    font-family: 'Inter', sans-serif;
+}
+
+@media screen and (max-width: 480px) {
+    .project_desc h3 {
+        font-size: 1.4rem;
+    }
+
+    #portfolio article {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 1520px) {
+    .project_img {
+        display: none;
+    }
+}

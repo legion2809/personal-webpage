@@ -1,0 +1,29 @@
+#contacts {
+    padding-bottom: 4rem;
+}
+
+#contacts a>i {
+    color: white;
+    text-decoration: none;
+    transition: all 0.5s ease;
+    font-size: 4rem;
+    margin: 1rem 2rem;
+}
+
+#contacts a>i:hover {
+    transform: rotate(360deg);
+    color: #909090;
+    transition: all 0.5s ease;
+}
+
+#contacts span {
+    font-family: 'Inter', sans-serif;
+    font-size: 1.5em;
+    font-weight: bolder;
+}
+
+@media screen and (max-width: 509px) {
+    #contacts a>i {
+        font-size: 3rem;
+    }
+}

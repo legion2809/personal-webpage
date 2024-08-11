@@ -1,0 +1,37 @@
+#aboutme {
+    padding-top: 15%;
+    padding-bottom: 2rem;
+    font-size: 1.4rem;
+}
+
+#aboutme p {
+    font-family: AtypDisplayMedium, sans-serif;
+    text-align: justify;
+    color: #2bbc8a;
+}
+
+#aboutme ul {
+    display: inline-block;
+    margin: 0 auto;
+    font-family: AtypDisplayMedium, sans-serif;
+    list-style-type: disc;
+    color: #2bbc8a;
+}
+
+#aboutme ul>li {
+    width: auto;
+    padding-left: 1rem;
+}
+
+@media screen and (max-width: 480px) {
+    #aboutme {
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (max-width: 717px) {
+    #aboutme ul {
+        padding-left: 1.5rem;
+        text-align: justify;
+    }
+}

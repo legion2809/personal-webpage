@@ -1,0 +1,24 @@
+#intro {
+    color: #c9ccaa;
+}
+
+#intro>img {
+    border-radius: 50%;
+    background: #1a1b1c;
+}
+
+#intro>a>img {
+    transform: rotate(180deg);
+    transition: all 0.5s ease;
+}
+
+#intro>a>img:hover {
+    transform: rotate(-360deg);
+}
+
+@media screen and (max-width: 480px) {
+    #intro>img {
+        width: 140px;
+        height: 140px;
+    }
+}
