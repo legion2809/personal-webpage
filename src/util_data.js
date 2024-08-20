@@ -1,6 +1,31 @@
 import rmorf_icon from '../assets/img/rmorf_icon.png'
 import effects_icon from '../assets/img/effects_icon.png'
 
+// Header links
+export const header_links = [
+    {
+        href: "#top",
+        text: "Home",
+        title: "To the top of the page"
+    },
+    {
+        href: "#aboutme",
+        text: "About me",
+        title: "To \"About me\" section"
+    },
+    {
+        href: "#portfolio",
+        text: "Portfolio",
+        title: "To \"My Projects\" section"
+    },
+    {
+        href: "#contacts",
+        text: "Contacts",
+        title: "To \"Contacts\" section"
+    }
+]
+
+// Main text of "About me" section
 export const aboutme_text = [
     {
         id: 0,
@@ -24,6 +49,7 @@ export const aboutme_text = [
     }
 ]
 
+// List of technologies, skills and languages in the main text of "About me" section
 export const list_of_skills = [
     {
         id: 0,
@@ -59,6 +85,7 @@ export const list_of_skills = [
     },
 ]
 
+// Projects list at "My Projects" section
 export const projects_list = [
     {
         img_src: rmorf_icon,
@@ -82,6 +109,7 @@ export const projects_list = [
     }
 ]
 
+// Social links at "Contacts" section
 export const social_links = [
     {
         id: "github",
