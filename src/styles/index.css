@@ -4,12 +4,12 @@
 /* Adding custom fonts */
 @font-face {
   font-family: AuroraBC;
-  src: url('../assets/fonts/aurora_bc.ttf');
+  src: url('../../assets/fonts/aurora_bc.ttf');
 }
 
 @font-face {
   font-family: AtypDisplayMedium;
-  src: url('../assets/fonts/AtypDisplay-Medium.ttf');
+  src: url('../../assets/fonts/AtypDisplay-Medium.ttf');
 }
 
 /* General styles */
