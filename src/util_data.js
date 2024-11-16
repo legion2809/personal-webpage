@@ -29,7 +29,7 @@ export const header_links = [
 export const aboutme_text = [
     {
         id: 0,
-        text: "Hello there, reader! My name is Yerkanat Sheriyazdanov. I'm from Kazakhstan, living in the city named Öskemen (or Ust'-Kamenogorsk) and at the moment I'm actively looking for a job in my specialty."
+        text: "Hello there, reader! My name is Yerkanat Sheriyazdanov. I'm from Kazakhstan, living in the city named Öskemen (or Ust'-Kamenogorsk) and at the moment I'm working as a intern ASP.NET Core developer at \"Rating\" LLP. The company I work for is focused on providing comprehensive solutions in the IT sphere for government and private enterprises in Ust'-Kamenogorsk and Kazakhstan."
     },
     {
         id: 1,
