@@ -1,6 +1,6 @@
 import '../../styles/Portfolio.css'
 import ProjectsList from './ProjectsList'
-import { projects_list } from '../../util_data'
+import { projects_list } from '../../utils/util_data'
 
 export default function Portfolio() {
     return (

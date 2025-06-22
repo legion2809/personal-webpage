@@ -29,7 +29,7 @@ export const header_links = [
 export const aboutme_text = [
     {
         id: 0,
-        text: "Hello there, reader! My name is Yerkanat Sheriyazdanov. I'm from Kazakhstan, living in the city named Öskemen (or Ust'-Kamenogorsk) and at the moment I'm actively looking for a job in IT sphere."
+        text: "Hello there, reader! My name is Yerkanat Sheriyazdanov. I'm from Kazakhstan, living in the city named Öskemen (or Ust'-Kamenogorsk) and at the moment I'm working in company named MyBPM (located in Almaty, Kazakhstan). This company mainly works on developing CRM-systems for business."
     },
     {
         id: 1,

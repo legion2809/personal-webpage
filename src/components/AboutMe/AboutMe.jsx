@@ -1,7 +1,7 @@
 import '../../styles/AboutMe.css'
 import AboutMeText from './AboutMeText'
 import ListOfSkills from './ListOfSkills'
-import { aboutme_text, list_of_skills } from '../../util_data'
+import { aboutme_text, list_of_skills } from '../../utils/util_data'
 
 export default function AboutMe() {
     return (

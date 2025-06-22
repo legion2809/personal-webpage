@@ -1,8 +1,8 @@
 import '../../styles/Header.css'
-import React, { useState } from 'react'
+import { useState } from 'react'
 
 import HeaderLinks from './HeaderLinks'
-import { header_links } from '../../util_data'
+import { header_links } from '../../utils/util_data'
 import reactLogo from '../../../assets/img/react.svg'
 
 export default function Header() {

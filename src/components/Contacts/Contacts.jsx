@@ -1,5 +1,5 @@
 import '../../styles/Contacts.css'
-import { social_links } from '../../util_data'
+import { social_links } from '../../utils/util_data'
 import SocialLinks from './SocialLinks'
 
 export default function Contacts() {
