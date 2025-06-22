@@ -1,5 +1,5 @@
-import rmorf_icon from '../assets/img/rmorf_icon.png'
-import effects_icon from '../assets/img/effects_icon.png'
+import rmorf_icon from '../../assets/img/rmorf_icon.png'
+import effects_icon from '../../assets/img/effects_icon.png'
 
 // Header links
 export const header_links = [
