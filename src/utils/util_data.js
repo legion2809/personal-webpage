@@ -113,25 +113,25 @@ export const projects_list = [
 export const social_links = [
     {
         id: "github",
-        class: "fa-brands fa-github",
+        class: "icon-gh",
         link: "https://github.com/legion2809",
         title: "Me at GitHub"
     },
     {
         id: "vk",
-        class: "fa-brands fa-vk",
+        class: "icon-vk",
         link: "https://vk.com/yerkanat_sh",
         title: "Me at VKontakte"
     },
     {
         id: "steam",
-        class: "fa-brands fa-steam",
+        class: "icon-steam",
         link: "https://steamcommunity.com/id/yerkanat_s/",
         title: "Me at Steam"
     },
     {
         id: "telegram",
-        class: "fa-brands fa-telegram",
+        class: "icon-tg",
         link: "https://t.me/yerkanat_sh",
         title: "Me at Telegram"
     }

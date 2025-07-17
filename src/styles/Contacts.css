@@ -3,6 +3,7 @@
 }
 
 #contacts a>i {
+    display: inline-block;
     color: white;
     text-decoration: none;
     transition: all 0.5s ease;
