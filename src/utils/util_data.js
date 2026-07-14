@@ -132,7 +132,7 @@ export const social_links = [
     {
         id: "telegram",
         class: "icon-tg",
-        link: "https://t.me/yerkanat_sh",
+        link: "https://telegram.me/yerkanat_sh",
         title: "Me at Telegram"
     }
 ]
